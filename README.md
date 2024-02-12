@@ -12,6 +12,27 @@ The application was built using Next.js version 14 and React Query.
 
 The user enters the ID of the top-level group as an input argument, and the application retrieves information about users, their memberships in groups and projects, and their access rights using the Gitlab REST API. This information is then processed and displayed in a human-readable format.
 
+## Running the Application
+
+To run the application, follow these steps:
+
+1. Install dependencies using the command:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+2. Start the application using the command:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
+
 ## Required Data in the Output
 
 The output of the application is a list of users with their details, including:
@@ -64,24 +85,3 @@ For development, a read-only test environment is available with the following de
 - ID of the top-level group: `10975505`
 - Access token: `naRAbrD8qPXaXVASQ8Zy`
 - App URL: `http://localhost:3000` - change PORT depending on your current available if needed
-
-## Running the Application
-
-To run the application, follow these steps:
-
-1. Install dependencies using the command:
-   ```
-   npm install
-   ```
-   or
-   ```
-   yarn install
-   ```
-2. Start the application using the command:
-   ```
-   npm run dev
-   ```
-   or
-   ```
-   yarn dev
-   ```
