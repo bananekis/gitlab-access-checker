@@ -21,6 +21,8 @@ The output of the application is a list of users with their details, including:
 - List of groups the user is a member of and their permissions
 - List of projects the user is a member of and their permissions
 
+This enhancement provides more clarity on the level of access each user has within the groups and projects.
+
 The total number of users is also provided at the end of the output.
 
 ## Sample Output
@@ -62,3 +64,24 @@ For development, a read-only test environment is available with the following de
 - ID of the top-level group: `10975505`
 - Access token: `naRAbrD8qPXaXVASQ8Zy`
 - App URL: `http://localhost:3000` - change PORT depending on your current available if needed
+
+## Running the Application
+
+To run the application, follow these steps:
+
+1. Install dependencies using the command:
+   ```
+   npm install
+   ```
+   or
+   ```
+   yarn install
+   ```
+2. Start the application using the command:
+   ```
+   npm run dev
+   ```
+   or
+   ```
+   yarn dev
+   ```
